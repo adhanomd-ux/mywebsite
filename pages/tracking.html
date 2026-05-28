@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="../css/style.css">
+</head>
+
+<body>
+
+<h2>Shipment Tracking</h2>
+
+<input type="text" id="tracking">
+<button onclick="track()">Track</button>
+
+<p id="status"></p>
+
+<script>
+function track(){
+
+let number =
+document.getElementById("tracking").value;
+
+document.getElementById("status").innerText =
+"Shipment " + number + " is currently in transit.";
+}
+</script>
+
+</body>
+</html>
