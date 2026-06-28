@@ -1,171 +1,244 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Coden Trucking</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coden Trucking | Nationwide Freight & Logistics</title>
 
-<link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
 
 <header>
 
-<div class="logo-wrap">
+    <div class="logo-wrap">
+        <img src="assets/images/logo1.jpg"
+             alt="Coden Trucking Logo"
+             class="logo">
 
-<img src="assets/images/logo1.jpg"
-alt="Coden Trucking Logo"
-class="logo">
+        <div class="company-info">
+            <h1>Coden Trucking</h1>
 
-<div>
+            <p>📞 <a href="tel:+15103953186">(510) 395-3186</a></p>
 
-<h1>Coden Trucking</h1>
+            <p>
+                📧
+                <a href="mailto:abrham@codentrucking.com">
+                    abrham@codentrucking.com
+                </a>
+            </p>
+        </div>
+    </div>
 
-<p>
-📧
-<a href="mailto:abrham@codentrucking.com">
-abrham@codentrucking.com </a>
-</p>
-</div>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="#services">Services</a>
+        <a href="pages/tracking.html">Tracking</a>
+        <a href="pages/drivers.html">Drivers</a>
+        <a href="#contact">Contact</a>
 
-</div>
-
-<nav>
-<a href="index.html">Home</a>
-<a href="pages/tracking.html">Tracking</a>
-<a href="pages/drivers.html">Drivers</a>
-<a href="pages/client-portal.html">Portal</a>
-<a href="pages/load-board.html">Load Board</a>
-<a href="pages/dispatch.html">Dispatch</a>
-<a href="pages/admin.html">Admin</a>
-<a href="pages/invoices.html">Invoices</a>
-</nav>
+        <a class="quote-btn" href="#quote">
+            Get Quote
+        </a>
+    </nav>
 
 </header>
 
+<!-- HERO -->
+
 <section class="hero">
-<div class="truck-animation">🚛</div>
-  
-<h2>Reliable Freight Transportation Across America</h2>
 
-<section class="services">
+    <div class="truck-animation">🚛</div>
 
-<h2>Our Services</h2>
+    <h2>Reliable Freight Transportation Across America</h2>
 
-<div class="service-grid">
+    <p>
+        Safe • On-Time • Fully Insured • 24/7 Dispatch
+    </p>
 
-<div class="card">
-<h3>Dry Van</h3>
-<p>Reliable nationwide freight transportation.</p>
-</div>
+    <div class="hero-buttons">
 
-<div class="card">
-<h3>Flatbed</h3>
-<p>Heavy equipment and oversized loads.</p>
-</div>
+        <a href="#quote" class="btn-primary">
+            Request Quote
+        </a>
 
-<div class="card">
-<h3>Reefer</h3>
-<p>Temperature-controlled transportation.</p>
-</div>
+        <a href="tel:+15103953186" class="btn-secondary">
+            Call Now
+        </a>
 
-<div class="card">
-<h3>Dispatch</h3>
-<p>Professional dispatch services available 24/7.</p>
-</div>
-
-</div>
+    </div>
 
 </section>
 
-<section class="services">
+<!-- TRUST -->
 
-<h2>Our Services</h2>
+<section class="trust">
 
-<div class="service-grid">
-
-<div class="card">
-<h3>Dry Van</h3>
-<p>Reliable nationwide freight transportation.</p>
-</div>
-
-<div class="card">
-<h3>Flatbed</h3>
-<p>Heavy equipment and oversized loads.</p>
-</div>
-
-<div class="card">
-<h3>Reefer</h3>
-<p>Temperature-controlled transportation.</p>
-</div>
-
-<div class="card">
-<h3>Dispatch</h3>
-<p>Professional dispatch services available 24/7.</p>
-</div>
-
-</div>
+    <div>✅ Nationwide Coverage</div>
+    <div>🚛 DOT Certified</div>
+    <div>⭐ Professional Drivers</div>
+    <div>📦 Fast & Secure Delivery</div>
 
 </section>
 
-<p>
-Safe • On-Time • Professional Freight Services Nationwide
-</p>
+<!-- SERVICES -->
 
-<div class="hero-buttons">
-    <a href="pages/quote.html" class="btn-primary">
-        Get Free Quote
-    </a>
+<section id="services" class="services">
 
-    <a href="tel:+15103953186" class="btn-secondary">
-        Call Now
-    </a>
-</div>
+    <h2>Our Services</h2>
+
+    <div class="service-grid">
+
+        <div class="card">
+            <h3>🚚 Dry Van</h3>
+            <p>Reliable freight transportation across the United States.</p>
+        </div>
+
+        <div class="card">
+            <h3>🚛 Flatbed</h3>
+            <p>Heavy equipment and oversized cargo transportation.</p>
+        </div>
+
+        <div class="card">
+            <h3>❄️ Reefer</h3>
+            <p>Temperature-controlled shipping for sensitive freight.</p>
+        </div>
+
+        <div class="card">
+            <h3>📦 Dispatch Services</h3>
+            <p>Professional dispatch support available 24/7.</p>
+        </div>
+
+    </div>
+
 </section>
 
-<section class="quote-box">
-<h2>Instant Coden Quote</h2>
+<!-- QUOTE -->
 
-<form id="quoteForm">
-<input type="text" placeholder="Pickup City" required>
-<input type="text" placeholder="Drop-Off City" required>
-<input type="number" id="weight" placeholder="Weight lbs" required>
-<button type="submit">Get Estimate</button>
-</form>
+<section id="quote" class="quote-box">
 
-<p id="quoteResult"></p>
+    <h2>Instant Freight Quote</h2>
+
+    <form id="quoteForm">
+
+        <input
+            type="text"
+            placeholder="Pickup City"
+            required>
+
+        <input
+            type="text"
+            placeholder="Drop-Off City"
+            required>
+
+        <input
+            type="number"
+            id="weight"
+            placeholder="Weight (lbs)"
+            required>
+
+        <button type="submit">
+            Get Estimate
+        </button>
+
+    </form>
+
+    <p id="quoteResult"></p>
+
 </section>
+
+<!-- SERVICE AREA -->
 
 <section class="map">
-<h2>Service Area</h2>
-<img src="assets/images/map.jpg" alt="Service map">
+
+    <h2>Service Area</h2>
+
+    <img
+        src="assets/images/map.jpg"
+        alt="Coden Trucking Service Area">
+
 </section>
+
+<!-- TESTIMONIALS -->
 
 <section class="testimonials">
-<h2>Driver Testimonials</h2>
 
-<div class="card">
-<p>"Great pay and excellent dispatch."</p>
-</div>
+    <h2>What Drivers Say</h2>
 
-<div class="card">
-<p>"Home every weekend."</p>
-</div>
+    <div class="service-grid">
 
+        <div class="card">
+            <p>
+                ⭐⭐⭐⭐⭐
+            </p>
 
+            <p>
+                "Great pay and excellent dispatch support."
+            </p>
+        </div>
 
+        <div class="card">
+            <p>
+                ⭐⭐⭐⭐⭐
+            </p>
 
+            <p>
+                "Professional company and home every weekend."
+            </p>
+        </div>
 
+    </div>
 
-<section class="payments">
-<h2>Pay Coden Invoice</h2>
-
-<button onclick="payNow()">Pay with Stripe / PayPal</button>
 </section>
 
+<!-- PAYMENTS -->
+
+<section class="payments">
+
+    <h2>Pay Your Invoice</h2>
+
+    <button onclick="payNow()">
+        Pay with Stripe / PayPal
+    </button>
+
+</section>
+
+<!-- CONTACT -->
+
+<section id="contact" class="contact">
+
+    <h2>Contact Us</h2>
+
+    <p>📞 (510) 395-3186</p>
+
+    <p>
+        📧
+        <a href="mailto:abrham@codentrucking.com">
+            abrham@codentrucking.com
+        </a>
+    </p>
+
+</section>
+
+<!-- FOOTER -->
+
+<footer>
+
+    <p>
+        © 2025 Coden Trucking LLC
+    </p>
+
+    <p>
+        Nationwide Freight Transportation
+    </p>
+
+</footer>
+
+<!-- CHAT -->
+
 <div class="chat-button">
-💬 Chat Support
+    💬 Chat Support
 </div>
 
 <script src="js/script.js"></script>
