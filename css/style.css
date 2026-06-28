@@ -7,6 +7,21 @@ background-size:cover;
 background-position:center;
 background-attachment:fixed;
 }
+.hero {
+    height: 50vh;
+    padding: 40px 20px;
+}
+section {
+    padding: 25px 20px;
+}
+
+h2 {
+    margin-bottom: 10px;
+}
+
+.card {
+    padding: 15px;
+}
 
 header{
 background:rgba(0,34,68,.92);
